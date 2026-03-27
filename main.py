@@ -23,7 +23,7 @@ def anotherway(ask2):
 
 ask2 = r""
 ask2 = input("Enter PDF Location: ")
-ask = input("Scanned or Real pdf? S/R")
+ask = input("Scanned or Real pdf? S/R: ")
 
 if ask == "S":
     maintext = anotherway(ask2)
